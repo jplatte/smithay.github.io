@@ -31,7 +31,7 @@ providing functions to draw the clients' windows content into your main composit
 renderer implementation is also provided, and a Vulkan-based on is on the roadmap.
 
 Alongside this refactor, [Smithay] gained support for DRM atomic modesetting as well as DRM planes.
-Furthermore, Anvil is now able to handle multi-monitor setups
+Furthermore, Anvil (our reference compositor) is now able to handle multi-monitor setups.
 
 #### Client surface state handling
 
@@ -71,7 +71,7 @@ thank them for their involvement:
 
 ## Next steps
 
-We now feel that Smithay is in a state where it is realistic to start building  a serious compositor using it.
+We now feel that Smithay is in a state where it is realistic to start building a serious compositor using it.
 It is not finished, but the fundamental parts are in place and working.
 
 The next steps we will be taking involve mainly two axes. The first one is introducing support for more Wayland
